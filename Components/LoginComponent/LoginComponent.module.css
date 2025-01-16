@@ -1,0 +1,438 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width: 100vw;
+}
+.TopHeading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+}
+.SubHeading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.SubSubHeading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 19px;
+}
+.FormButton{
+    padding: 4px 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #9E9E9E;
+    background-color: #fff;
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.FormStyle{
+    border: none;
+    border-radius: 4px;
+
+}
+
+.FormStyle:focus{
+    border: 1px solid black !important;
+    border-radius: 4px;
+}
+
+.ForgotPassword{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    color: #0000ff;
+    cursor: pointer;
+}
+.FormPosition{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SubmitButton{
+    border: 1px solid black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+}
+.SubmitButton:hover{
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px #000;
+}
+.FormGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.EntirePage{
+    background-color: #EDEDED;
+    height:100dvh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.InnerPage{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.ImageContainer{
+    /* height: 95%; */
+    flex-basis: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Headline{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #AAAAAA;
+}
+
+.TagLine{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.Tag{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.FormContainer{
+    width: 37%;
+    background-color: #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignIn{
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    margin: 1.25rem;
+
+}
+
+.LoginContainer{
+    display: flex;
+    height: 102vh;
+    justify-content: center;
+    align-items: center;
+    background-size: 200% auto;
+    background-image: linear-gradient(-45deg, rgb(191, 225, 249) 0%, rgb(121, 209, 253) 25%, rgb(220, 249, 214) 51%, #bebebe 100%);
+    animation: AnimateBG 3s linear infinite;
+    margin: -8px !important;
+    padding: -8px;
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+  }
+
+.LogIn{
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    margin: 2rem 0rem;
+
+}
+
+.LoginOption{
+    display: flex;
+    gap: 14px;
+    margin-bottom: 1.063rem;
+
+}
+
+.WelcomeLine{
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #595D62;
+}
+
+.OtpLine{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.OtpStyle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    color: #3E97FF;
+    cursor: pointer;
+}
+
+.ClickButton{
+    width: 100%;
+    padding: 12px;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.PasswordForgot{
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px;
+    text-align: center;
+    color: #595D62;
+    margin-top: 1.5rem;
+}
+
+.CustomPadding{
+    padding: 10px;
+}
+
+.InputTextControl{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5E6278;
+}
+
+.Forgotpassword{
+    color: #346ECD;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.ChangeMobile{
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.LoginStyle{
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 13;
+}
+
+.FormInnerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 338px;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.FormInnerContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.FormLogoMain{
+    display: none;
+}
+
+.PhoneNumberField{
+    display: block;
+    height: 20px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0.94rem;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media (max-width: 1030px) {
+
+    .ImageContainer{
+        flex-basis: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .HideImageContainer{
+        display: none;
+    }
+
+    .FormLogoMain{
+        display: block;
+        width: 185px;
+    }
+
+    .LoginStyle{
+        width: 100%;
+    }
+
+    .EntirePage{
+        padding: 0;
+    }
+
+    .LogIn{
+        font-family: "Hanken Grotesk";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        margin: 1rem 0rem;
+    }
+
+    .InnerPage{
+        justify-content: center;
+        padding: 0 !important;
+        margin: 0;
+    }
+
+    .FormContainer{
+        display: none;
+        flex-basis: 100%;
+        width: unset;
+        border-radius: 0;
+        padding: 0 !important;
+        margin: 0 !important;
+        align-items: stretch;
+        background-color: #EDEDED;
+    }
+
+    .ShowFormContainer{
+        display: flex;
+        height: 100vh;
+    }
+
+    .FormInnerContainer{
+        width: unset;
+        flex-basis: unset;
+        padding: 2rem;
+        justify-content: center;
+        padding: 1.5rem 15px !important;
+        width: 100%;
+    }
+
+    .WelcomeLine{
+        margin-bottom: 0 !important;
+    }
+
+    .PasswordForgot{
+        font-family: "Hanken Grotesk";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 44px;
+        text-align: center;
+        color: #595D62;
+        margin-top: 12px;
+    }
+
+    .FormLogo{
+        width: 185px !important;
+    }
+
+    .FormGroup{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .PhoneNumberField{
+        display: block;
+        height: 20px;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        font-family: "Hanken Grotesk";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .SignIn{
+        font-family: "Hanken Grotesk";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        margin: 0.75rem;
+    
+    }
+}
